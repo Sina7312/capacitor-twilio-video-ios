@@ -6,9 +6,8 @@ target 'Plugin' do
   use_frameworks!
 
   # Pods for IonicRunner
-  pod 'Capacitor', '1.0.0-beta.13'
-  pod 'TwilioVideo', '~> 2.6'
-  
+  pod 'Capacitor'
+  pod 'TwilioVideo', '~> 3.6'
 end
 
 target 'PluginTests' do
